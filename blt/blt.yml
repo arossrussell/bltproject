@@ -9,7 +9,7 @@ project:
     hostname: 'local.${project.machine_name}.com'
 git:
   default_branch: master
-  remotes: {  }
+  remotes: { https://github.com/arossrussell/bltproject }
 deploy:
   tag_source: true
 drush:
