@@ -10,6 +10,9 @@ project:
 git:
   default_branch: master
   remotes: { https://github.com/arossrussell/bltproject }
+  hooks:
+      commit-msg: false
+      pattern: false
 deploy:
   tag_source: true
 drush:
